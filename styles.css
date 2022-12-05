@@ -1,0 +1,98 @@
+body {
+    font-family: 'Charis SIL', sans-serif;
+    margin: 0px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+  }
+
+  .nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 1.3rem;
+  }
+  
+  .right-side {
+    display: flex;
+  }
+  
+  .nav-wrapper > .right-side > div {
+    margin-right: 30px;
+    text-transform: uppercase;
+  }
+  
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+  
+  .active-nav-link {
+    border-bottom: 1px solid black;
+  }
+  
+  .active-nav-link a {
+    color: black !important;
+  }
+  
+  .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  
+  .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+  }
+  
+  .nav-link-wrapper a:hover {
+    color: black;
+  }
+  
+  .two-column-wrapper {
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+  }
+
+  .three-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.1fr 1fr;
+    column-gap: 20px;
+  }
+  
+  .bar {
+    display: grid;
+    height: 20px;
+    background-color: lightsteelblue;
+  }
+  
+  .homepage-wrapper {
+    display: grid;
+    height: 20px;
+    padding-top: 50px;
+    text-align: start;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .nav-content-wrapper {
+    padding: 30px;
+  }
+  
+  .nav-content-wrapper h1 {
+    color: lightskyblue;
+  }
+
+  .homepage-wrapper h1 {
+    text-align: center;
+  }

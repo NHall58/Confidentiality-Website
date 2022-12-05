@@ -12,4 +12,6 @@ the public, so this project would be a fantastic avenue in which I can inform wh
 stumble upon the website.
 
 This website's goal is to convey some of my learnings throughout the course by describing 
-some in-depth knowledge on my chosen topic of confidentiality and privacy.
+some in-depth knowledge on my chosen topic of confidentiality and privacy. The website
+consists of 3 different pages which can be accessed through the links at the top right of 
+the webpage.
